@@ -7,6 +7,6 @@ defmodule WeatherWeb.Router do
 
   scope "/", WeatherWeb do
     pipe_through :api
-    get "/", WeatherController, :index
+    get "/weather", WeatherController, :index
   end
 end

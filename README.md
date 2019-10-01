@@ -1,3 +1,8 @@
+> ### Weather App
+> Simple Phoenix app making use of Dark Sky's weather API to serve weather data.
+
+[![Codeship Status for zac156/weather-app](https://app.codeship.com/projects/ebb464a0-c673-0137-c308-4650a9134f24/status?branch=master)](https://app.codeship.com/projects/367069)
+
 # Instructions to build and run
 
 1. make build
