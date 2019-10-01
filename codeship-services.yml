@@ -1,0 +1,6 @@
+app:
+  build:
+    image: weather:latest
+    dockerfile: Dockerfile
+  environment:
+    MIX_ENV: test
