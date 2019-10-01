@@ -12,3 +12,5 @@
 # Dev
 
 When using `minikube` run `minikube service weather` to access the service.
+
+[![Codeship Status for zac156/weather-app](https://app.codeship.com/projects/ebb464a0-c673-0137-c308-4650a9134f24/status?branch=master)](https://app.codeship.com/projects/367069)
