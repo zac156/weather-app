@@ -39,9 +39,7 @@ defmodule Weather.MixProject do
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"},
       {:envy, "~> 1.1.1"},
-      {:httpoison, "~> 1.4"},
-      # Install latest hackney (reason: https://github.com/edgurgel/httpoison/issues/393 issue with OTP 22.1)
-      {:hackney, ">= 1.15.2", override: true}
+      {:httpoison, "~> 1.4"}
     ]
   end
 

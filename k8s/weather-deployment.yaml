@@ -17,4 +17,4 @@ spec:
           image: weather:latest
           imagePullPolicy: Never
           ports:
-          - containerPort: 8080
+          - containerPort: 4000
