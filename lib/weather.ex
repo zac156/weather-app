@@ -11,7 +11,7 @@ defmodule Weather do
 
   def get_weather(lat, lon) do
     api_key = System.get_env("API_KEY")
-    url = "/forecast/#{api_key}/#{lat},#{lon}?units=auto"
+    url = "/forecast/#{api_key}/#{lat},#{lon}"
 
     case @weather_api.get(url) do
       {:ok, %HTTPoison.Response{status_code: 200, body: body}} ->

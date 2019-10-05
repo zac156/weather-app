@@ -5,14 +5,18 @@
 
 # Instructions to build and run
 
-1. make build
-2. make run
-3. make tests
+1. Set your ENV variables in Dockerfile
+2. `make build`: builds the Docker image
+3. `make run`: runs the Docker image locally
+
+# Tests
+
+1. `make tests`: runs tests inside Docker container (env vars aren't needed for tests)
 
 # Kubernetes
 
-1. kubectl apply -f k8s/weather-deployment.yaml
-2. kubectl expose deployment weather --type=LoadBalancer
+1. `kubectl apply -f k8s/weather-deployment.yaml`
+2. `kubectl expose deployment weather --type=LoadBalancer`
 
 # Dev
 
